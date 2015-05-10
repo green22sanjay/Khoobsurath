@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/Catline"
+        android:paddingLeft="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:clickable="true"
+            android:background="@drawable/customborder"
+
+            android:id="@+id/CateImg" />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:clickable="true"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text=""
+            android:id="@+id/CatTilte" />
+
+
+    </LinearLayout>
+
+    <ViewAnimator
+        android:id="@+id/viewtm"
+
+        android:layout_width="1000dp"
+        android:layout_height="2dp"
+        android:background="@color/md_grey_300"/>
+    <!-- <ViewAnimator
+         android:layout_width="match_parent"
+         android:layout_height="1dp"
+        android:background="@drawable/round_background_green"/>
+        -->
+</LinearLayout>

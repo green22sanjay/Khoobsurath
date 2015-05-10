@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kubsurath.kubsurath.latest$PlaceholderFragment">
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:paddingBottom="60dp"/>
+
+    <include
+
+        android:id="@+id/app_bar"
+        layout="@layout/toolbar"/>
+
+</RelativeLayout>

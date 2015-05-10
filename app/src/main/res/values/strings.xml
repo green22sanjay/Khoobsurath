@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Kubsurath</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="PostTitle">Post Title</string>
+    <string name="PostDescription">Post Description (Optional)</string>
+    <string name="action_search">Search</string>
+    <string name="title_activity_search">SearchActivity</string>
+
+    <string name="search_menu">Search</string>
+    <string name="searchable_label">Search Query</string>
+    <string name="searchable_hint">Enter photo tags</string>
+    <string name="title_activity_view_photo_details">Photo Details</string>
+    <string name="tab_words">tabwords</string>
+    <string name="tab_numbers">tabnumbers</string>
+
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Find People</item>
+        <item >Photos</item>
+        <item >Communities</item>
+        <item >Pages</item>
+        <item >What\'s Hot</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_trending">trending</string>
+    <string name="title_activity_latest">latest</string>
+    <string name="title_activity_winner">winner</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+<string name="categoryss">Select the categories?</string>
+
+    <string-array name="adobe_products">
+        <item name="Signup">Sign up</item>
+        <item name="Login">Login</item>
+
+     </string-array>
+    <string name="title_activity_after_login">AfterLogin</string>
+    <string name="PostFeed">Post on Khoobsuarth</string>
+    <string name="post">Post</string>
+    <string name="kubsurathsubtitle">Khoobsurath - Transform to New Fashion Trend</string>
+    <string name="kubsurathtitle">Welcome to Khoobsurath</string>
+    <string name="category">Please Select the Categories</string>
+    <string name="hashtaghint">#HashTag(use comma(,) for multiple HashTags)</string>
+    <string name="postDescription">Fill what you to tell?</string>
+    <string name="addpic">+Add Pics</string>
+    <string name="addpicss">This is a add pic image</string>
+    <string name="title_activity_upload">UploadActivity</string>
+    <string name="upload">Please Upload</string>
+    <string name="clkuplad">Please Click Upload</string>
+    <string name="upd">Update</string>
+    <string name="puppi">Please update Profile Picture</string>
+
+</resources>

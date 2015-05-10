@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kubsurath.kubsurath"
+    android:icon="@mipmap/ic_launcher">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:name=".Appcontroler.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CheckLoginAddButton"
+            android:label="@string/title_activity_trending"
+            android:parentActivityName=".MainActivity"
+            android:icon="@mipmap/ic_launcher"
+            android:theme="@style/MyMaterialTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kubsurath.kubsurath.MainActivity" />
+        </activity>
+        <activity
+            android:name=".trending"
+            android:label="@string/title_activity_trending"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kubsurath.kubsurath.MainActivity" />
+        </activity>
+        <activity
+            android:name=".latest"
+            android:label="@string/title_activity_latest" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kubsurath.kubsurath.MainActivity" />
+        </activity>
+        <activity
+            android:name=".winner"
+            android:label="@string/title_activity_winner" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kubsurath.kubsurath.MainActivity" />
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name=".RegisterActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name=".RegisterActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddPostActivitys"
+            android:label="@string/app_name"
+            android:theme="@style/MyMaterialTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kubsurath.kubsurath.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".Addpropic"
+            android:label="@string/app_name"
+            android:theme="@style/MyMaterialTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kubsurath.kubsurath.MainActivity" />
+        </activity>
+        <activity
+            android:name=".UploadPostActivity"
+            android:label="@string/app_name"
+            android:theme="@style/MyMaterialTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kubsurath.kubsurath.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kubsurath.kubsurath.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AfterLoginFragment"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kubsurath.kubsurath.MainActivity" />
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_grey_300"
+    android:layout_margin="1sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:id="@+id/linearLayout">
+        <TextView
+            android:id="@+id/txtPercentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:visibility="gone"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/txt_font"
+            android:textSize="30sp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_marginBottom="35dp"
+            android:visibility="gone"/>
+        <LinearLayout
+            android:id="@+id/linearLayoutchild"
+            android:paddingTop="5dp"
+            android:background="@color/md_white_1000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="5dp">
+
+
+            <Button
+                android:id="@+id/addpic"
+                android:background="@drawable/colorselctoraddpic"
+                android:padding="10dp"
+                android:text="@string/addpic"
+                android:textColor="@drawable/textselctoraddpic"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayoutafterchild"
+            android:paddingTop="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/md_white_1000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:visibility="gone"
+            android:padding="5dp">
+            <ImageView
+                android:id="@+id/setImg"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:gravity="center"
+                android:contentDescription="@string/addpicss"
+
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:paddingTop="10dp"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

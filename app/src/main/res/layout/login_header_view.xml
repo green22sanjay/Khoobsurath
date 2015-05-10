@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@drawable/bg_parent_rounded_corner"
+    >
+    <com.android.volley.toolbox.NetworkImageView
+
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:scaleType="fitCenter"
+        android:baseline="2dp"
+        android:clickable="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/customborder"
+        android:id="@+id/Proimage"
+        />
+<LinearLayout
+    android:layout_below="@+id/Proimage"
+    android:paddingTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:clickable="true"
+
+            android:text="@string/puppi"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:clickable="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="1dp"
+            android:text="@string/puppi"
+            android:textSize="14sp"
+
+
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
